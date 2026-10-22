@@ -26,8 +26,9 @@ def main():
 
    name = input("Please enter your name: ")
    last_name = input("Please enter your last name: ")
+   nick = input("Please enter your nickname: ")
+   print('Hi, {} {} a.k.a. {}!'.format(nick, last_name, nick))
 
-   print('Hi, {} {}!'.format(name, last_name))
 
 if __name__ == '__main__':
    main()
