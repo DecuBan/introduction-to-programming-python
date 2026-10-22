@@ -24,5 +24,8 @@
 def main():
    print("I'm learning Git merge conflicts")
 
+   nick = input("Please enter your nickname: ")
+   print('Hi, {}!'.format(nick))
+
 if __name__ == '__main__':
    main()
